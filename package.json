@@ -2,6 +2,7 @@
   "name": "react-jobs",
   "private": true,
   "version": "1.0.0",
+  "versionNVM": "20.11.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
