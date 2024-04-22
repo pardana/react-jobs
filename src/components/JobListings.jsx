@@ -9,9 +9,7 @@ const JobListings = ({ isHome = false }) => {
 
   useEffect(() => {
     const fetchJobs = async () => {
-      const apiURL = isHome
-        ? "http://localhost:8000/jobs?_limit=3"
-        : "http://localhost:8000/jobs";
+      const apiURL = isHome ? "/api/jobs?_limit=3" : "/api/jobs";
 
       try {
         const res = await fetch(apiURL);
@@ -31,7 +29,7 @@ const JobListings = ({ isHome = false }) => {
     <section className="bg-blue-50 px-4 py-10">
       <div className="container-xl lg:container m-auto">
         <h2 className="text-3xl font-bold text-indigo-500 mb-6 text-center">
-          {isHome ? "Recents Jobs" : "Browse Jobs"}
+          {isHome ? "Recent Jobs" : "Browse Jobs"}
         </h2>
 
         {loading ? (
