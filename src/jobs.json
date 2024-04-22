@@ -83,20 +83,6 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
-    },
-    {
-      "id": "5a19",
-      "title": "Frontend Developer",
-      "type": "Remote",
-      "location": "Bekasi",
-      "description": "desc1",
-      "salary": "$90K - 100K",
-      "company": {
-        "name": "iApptech Indonesia",
-        "description": "desc2",
-        "contactEmail": "iapptech@gmail.com",
-        "contactPhone": "02187386483"
-      }
     }
   ]
 }
