@@ -33,7 +33,7 @@ const AddJobPage = () => {
                 value={type}
                 onChange={(e) => setType(e.target.value)}
               >
-                <option value="">Select Job Type</option>
+                <option value="">Select Jobs Type</option>
                 <option value="Full-Time">Full-Time</option>
                 <option value="Part-Time">Part-Time</option>
                 <option value="Remote">Remote</option>
